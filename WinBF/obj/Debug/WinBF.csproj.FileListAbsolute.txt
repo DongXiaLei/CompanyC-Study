@@ -1,0 +1,10 @@
+C:\Users\Administrator\source\repos\BFCommonSystem\WinBF\bin\Debug\WinBF.exe.config
+C:\Users\Administrator\source\repos\BFCommonSystem\WinBF\bin\Debug\WinBF.exe
+C:\Users\Administrator\source\repos\BFCommonSystem\WinBF\bin\Debug\WinBF.pdb
+C:\Users\Administrator\source\repos\BFCommonSystem\WinBF\obj\Debug\WinBF.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\BFCommonSystem\WinBF\obj\Debug\WinBF.FrmLogin.resources
+C:\Users\Administrator\source\repos\BFCommonSystem\WinBF\obj\Debug\WinBF.Properties.Resources.resources
+C:\Users\Administrator\source\repos\BFCommonSystem\WinBF\obj\Debug\WinBF.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\BFCommonSystem\WinBF\obj\Debug\WinBF.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\BFCommonSystem\WinBF\obj\Debug\WinBF.exe
+C:\Users\Administrator\source\repos\BFCommonSystem\WinBF\obj\Debug\WinBF.pdb

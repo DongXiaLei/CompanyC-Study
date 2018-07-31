@@ -1,0 +1,5 @@
+C:\Users\Administrator\source\repos\BFCommonSystem\BFCommonDAL\bin\Debug\BFCommonDAL.dll
+C:\Users\Administrator\source\repos\BFCommonSystem\BFCommonDAL\bin\Debug\BFCommonDAL.pdb
+C:\Users\Administrator\source\repos\BFCommonSystem\BFCommonDAL\obj\Debug\BFCommonDAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\BFCommonSystem\BFCommonDAL\obj\Debug\BFCommonDAL.dll
+C:\Users\Administrator\source\repos\BFCommonSystem\BFCommonDAL\obj\Debug\BFCommonDAL.pdb
