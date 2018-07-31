@@ -47,18 +47,21 @@
             this.bgLogin.Controls.Add(this.tb_User);
             this.bgLogin.Controls.Add(this.label2);
             this.bgLogin.Controls.Add(this.label1);
-            this.bgLogin.Location = new System.Drawing.Point(12, 12);
+            this.bgLogin.Location = new System.Drawing.Point(18, 18);
+            this.bgLogin.Margin = new System.Windows.Forms.Padding(4);
             this.bgLogin.Name = "bgLogin";
-            this.bgLogin.Size = new System.Drawing.Size(776, 426);
+            this.bgLogin.Padding = new System.Windows.Forms.Padding(4);
+            this.bgLogin.Size = new System.Drawing.Size(1164, 639);
             this.bgLogin.TabIndex = 1;
             this.bgLogin.TabStop = false;
             this.bgLogin.Text = "登录信息";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(474, 242);
+            this.button2.Location = new System.Drawing.Point(711, 363);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(112, 34);
             this.button2.TabIndex = 4;
             this.button2.Text = "取消";
             this.button2.UseVisualStyleBackColor = true;
@@ -66,51 +69,61 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(258, 242);
+            this.button1.Location = new System.Drawing.Point(387, 363);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(112, 34);
             this.button1.TabIndex = 3;
             this.button1.Text = "登录";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tb_PWD
             // 
-            this.tb_PWD.Location = new System.Drawing.Point(358, 170);
+            this.tb_PWD.Location = new System.Drawing.Point(537, 245);
+            this.tb_PWD.Margin = new System.Windows.Forms.Padding(4);
             this.tb_PWD.Name = "tb_PWD";
-            this.tb_PWD.Size = new System.Drawing.Size(152, 21);
+            this.tb_PWD.PasswordChar = '*';
+            this.tb_PWD.Size = new System.Drawing.Size(226, 28);
             this.tb_PWD.TabIndex = 2;
+            this.tb_PWD.TextChanged += new System.EventHandler(this.tb_PWD_TextChanged);
             // 
             // tb_User
             // 
-            this.tb_User.Location = new System.Drawing.Point(358, 102);
+            this.tb_User.Location = new System.Drawing.Point(537, 155);
+            this.tb_User.Margin = new System.Windows.Forms.Padding(4);
             this.tb_User.Name = "tb_User";
-            this.tb_User.Size = new System.Drawing.Size(152, 21);
+            this.tb_User.Size = new System.Drawing.Size(226, 28);
             this.tb_User.TabIndex = 1;
+            this.tb_User.TextChanged += new System.EventHandler(this.tb_User_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(280, 170);
+            this.label2.Location = new System.Drawing.Point(420, 255);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 12);
+            this.label2.Size = new System.Drawing.Size(80, 18);
             this.label2.TabIndex = 0;
             this.label2.Text = "密  码 :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(280, 105);
+            this.label1.Location = new System.Drawing.Point(420, 158);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.Size = new System.Drawing.Size(80, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "用户名 :";
             // 
             // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 675);
             this.Controls.Add(this.bgLogin);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form";

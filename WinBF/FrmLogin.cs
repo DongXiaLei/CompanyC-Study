@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using BFCommonSystem.BLL;
+
 namespace WinBF
 {
     public partial class FrmLogin : Form
@@ -38,7 +40,35 @@ namespace WinBF
             //关闭窗口
             // this.Close();
             //退出应用程序
-            Application.Exit();
+            if(dr == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+
+               
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            bool ret = UserManager.Login(this.tb_User_TextChanged, this.tb_PWD_TextChanged);
+            if(ret == true )
+            {
+                MessageBox.Show("登录成功");
+            }
+            else
+            {
+                MessageBox.Show("登录失败");
+            }
+        }
+
+        private void tb_User_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tb_PWD_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
